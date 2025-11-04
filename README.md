@@ -276,3 +276,18 @@ Both problems have equal weightage and collectively provide comprehensive covera
 **Course**: Analysis of Algorithms  
 **Instructor**: Prof. Alin Dobra  
 **Purpose**: Educational project demonstrating algorithmic paradigms and their applications
+
+## Dataset Notes and Future Integration
+
+Currently, both algorithmic implementations (Greedy and Divide & Conquer) use **synthetic datasets** generated programmatically. 
+This choice ensures controlled experimentation and reproducibility during algorithmic analysis.
+
+However, the project design is **dataset-ready** and can easily integrate with real-world datasets for future validation:
+
+- **CropNet Dataset** – Combines satellite imagery, weather data, and yield labels (Hugging Face).
+- **SustainBench Dataset** – Provides sustainability benchmarks including crop yield and resource data.
+- **USDA Cropland Data Layer (CDL)** – Annual crop-type land cover data for the U.S.
+
+Future work can incorporate these datasets to:
+1. Validate the greedy crop allocation algorithm with real environmental and yield data.
+2. Enhance the Divide & Conquer imputation algorithm for multi-sensor time series.
